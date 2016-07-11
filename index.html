@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="description" content="AnalogSea is an R client for version 2 of the Digital Ocean API. It allows you to programatically create and destroy droplets (remote computers), and install various R related tools.">
+<title>AnalogSea</title>
+
+<link rel="stylesheet" href="styles/main.css" />
+
+</head>
+<body>
+
+  <img class="logo" height="35" src="assets/logo.png" alt="AnalogSea logo" />
+
+  <form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
+
+    <legend>Sign up</legend>
+
+    <label for="user-email">Email</label>
+    <input type="email" placeholder="foo@bar.com" name="user-email" id="user_email" />
+
+    <label for="user-password">Password</label>
+    <input placeholder="1234passw0rd" label="false" type="password" name="user-password" id="user-password" />
+
+    <button type="submit"/>Sign up</button>
+
+    <p><a href="/forgot_password/new">Forgot password?</a></p>
+  </form>
+
+  <div class='footer'>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+  </div>
+</body>
+</html>
